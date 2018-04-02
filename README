@@ -1,8 +1,4 @@
-License: http://www.gnu.org/licenses/gpl-2.0.html
-
-Update:
-
-Script fixed for php 7.
+Update: Script fixed for php 7!
 
 Benefits
 
@@ -38,3 +34,5 @@ Using your personal URL shortener service
 - To manually shorten URLs open in your web browser the location where you uploaded the files.
 - To programmatically shorten URLs with PHP use the following code:
     $shortenedurl = file_get_contents('https://yourdomain.com/shorten.php?longurl=' . urlencode('https://' . $_SERVER['HTTP_HOST']  . '/' . $_SERVER['REQUEST_URI']));
+
+License: http://www.gnu.org/licenses/gpl-2.0.html
